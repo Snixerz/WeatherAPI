@@ -13,7 +13,7 @@ def weather_results_page():
 
     params = {
         'q': users_city,
-        'appid':"9f87d4a1669aa1f928d4ce146001bdec"
+        'appid':"2608f679d4594364525f6c6cc2246c79"
     }
     response = requests.get('http://api.openweathermap.org/data/2.5/weather', params=params)
 
